@@ -19,7 +19,7 @@ function App() {
     if(ciudad === '') return;
 
     const consultarAPI = async () => {
-      const appId = 'a927623a4c7e72d7d84e885de8b246fb';
+      const appId = '';
       const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${appId}`;
   
       //CONSULTAR LA URL 
